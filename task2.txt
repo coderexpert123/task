@@ -1,0 +1,64 @@
+Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite
+
+What is Selenium
+Selenium is one of the most widely used open source Web UI (User Interface) automation testing suite.It was originally developed by Jason Huggins in 2004 as an internal tool at Thought Works. Selenium supports automation across different browsers, platforms and programming languages.
+
+Selenium can be easily deployed on platforms such as Windows, Linux, Solaris and Macintosh. Moreover, it supports OS (Operating System) for mobile applications like iOS, windows mobile and android.
+
+Selenium supports a variety of programming languages through the use of drivers specific to each language.Languages supported by Selenium include C#, Java, Perl, PHP, Python and Ruby.Currently, Selenium Web driver is most popular with Java and C#. Selenium test scripts can be coded in any of the supported programming languages and can be run directly in most modern web browsers. Browsers supported by Selenium include Internet Explorer, Mozilla Firefox, Google Chrome and Safari.
+
+Selenium can be used to automate functional tests and can be integrated with automation test tools such as Maven, Jenkins, & Docker to achieve continuous testing. It can also be integrated with tools such as TestNG, & JUnit for managing test cases and generating reports
+
+Selenium Features
+Selenium is an open source and portable Web testing Framework.
+Selenium IDE provides a playback and record feature for authoring tests without the need to learn a test scripting language.
+It can be considered as the leading cloud-based testing platform which helps testers to record their actions and export them as a reusable script with a simple-to-understand and easy-to-use interface.
+Selenium supports various operating systems, browsers and programming languages. Following is the list:
+Programming Languages: C#, Java, Python, PHP, Ruby, Perl, and JavaScript
+Operating Systems: Android, iOS, Windows, Linux, Mac, Solaris.
+Browsers: Google Chrome, Mozilla Firefox, Internet Explorer, Edge, Opera, Safari, etc.
+It also supports parallel test execution which reduces time and increases the efficiency of tests.
+Selenium can be integrated with frameworks like Ant and Maven for source code compilation.
+Selenium can also be integrated with testing frameworks like TestNG for application testing and generating reports.
+Selenium requires fewer resources as compared to other automation test tools.
+WebDriver API has been indulged in selenium whichis one of the most important modifications done to selenium.
+Selenium web driver does not require server installation, test scripts interact directly with the browser.
+Selenium commands are categorized in terms of different classes which make it easier to understand and implement.
+Selenium Remote Control (RC) in conjunction with WebDriver API is known as Selenium 2.0. This version was built to support the vibrant web pages and Ajax
+
+Selenium Limitations
+Selenium does not support automation testing for desktop applications.
+Selenium requires high skill sets in order to automate tests more effectively.
+Since Selenium is open source software, you have to rely on community forums to get your technical issues resolved.
+We can't perform automation tests on web services like SOAP or REST using Selenium.
+We should know at least one of the supported programming languages to create tests scripts in Selenium WebDriver.
+It does not have built-in Object Repository like UTF/QTP to maintain objects/elements in centralized location. However, we can overcome this limitation using Page Object Model.
+Selenium does not have any inbuilt reportingcapability; you have to rely on plug-ins like JUnit and TestNG for test reports.
+It is not possible to perform testing on images. We need to integrate Selenium with Sikuli for image based testing.
+Creating test environment in Selenium takes more time as compared to vendor tools like UFT, RFT, Silk test, etc.
+No one is responsible for new features usage; they may or may not work properly.
+Selenium does not provide any test tool integration for Test Management.
+
+Selenium vs QTP
+Selenium and QTP are the most frequent used automation test tools in the market. Hence, we have compared some of the features of Selenium over QTP.
+
+Features	Selenium	HP QTP
+License	Open source tool	Required
+Customer support	Dedicated HP support	Selenium community forums
+Test Support	Supportsautomation only for web-based applications.	Support tests on both web and desktop based applications.
+Resource consumption during test scripts execution	Low resource consumption	High resource consumption
+Supported programming languages	Java, C#, Ruby, Python, Perl, PHP and JavaScript	VB Script.
+Supported Environments	Android, iOS, Windows, Linux, Mac, Solaris.	Only for Windows
+Supported Browsers	Google Chrome, Mozilla Firefox, Internet Explorer, Edge, Opera, Safari, etc.	Specific versions of Google Chrome, Mozilla Firefox and Internet Explorer.
+Object Repository/Recovery Scenario	Absent	Built-in object repository and recovery scenario.
+Browser Controls	None	Controls like favourites bar, backward and forward buttons can be accessed within the browser.
+Test Report Generation	It relies on external tool for generating test reports.	Built-in test report generation within the tool.
+Parameterization	You have to rely on any one of the supported programming language for parameterization.	Built-in tools are available for parameterization.
+
+Selenium Tool Suite
+Selenium is not just a single tool but a suite of software, each with a different approach to support automation testing. It comprises of four major components which include:
+
+Selenium Integrated Development Environment (IDE)
+Selenium Remote Control (Now Deprecated)
+WebDriver
+Selenium Grid

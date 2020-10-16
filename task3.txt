@@ -1,0 +1,43 @@
+1. Fetching a web page
+There are two methods to fetch a web page:
+
+Using Get method
+driver.get("https://www.thesparksfoundationsingapore.org/")  
+Using Navigate method
+driver.navigate().to("https://www.thesparksfoundationsingapore.org/");  
+
+2. Locating forms and sending user inputs
+driver.findElement(By.id("lst-ib")).sendKeys("https://www.thesparksfoundationsingapore.org/");  
+3. Clearing User inputs
+The clear() method is used to clear the user inputs from the text box.
+
+driver.findElement(By.name("q")).clear();  
+4. Fetching data over any web element
+Sometimes we need to fetch the text written over a web element for performing some assertions and debugging. We use getText() method to fetch data written over any web element.
+
+driver.findElement(By.id("element567")).getText();  
+5. Performing Click event
+The click() method is used to perform click operation on any web element.
+
+driver.findElement(By.id("btnK")).click();  
+6. Navigating backward in browser history
+driver.navigate().back();  
+7. Navigating forward in browser history
+driver.navigate().forward();  
+8. Refresh/ Reload a web page
+driver.navigate().refresh();  
+9. Closing Browser
+driver.close();  
+10. Closing Browser and other all other windows associated with the driver
+driver.quit();  
+11. Moving between Windows
+driver.switchTo().window("windowName");  
+13. Moving between Frames
+driver.switchTo().frame("frameName");  
+14. Drag and Drop
+Drag and Drop operation is performed using the Action class.
+
+WebElement element = driver.findElement(By.name("source"));  
+WebElement target = driver.findElement(By.name("target"));  
+  
+(new Actions(driver)).dragAndDrop(element, target).perform();  

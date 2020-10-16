@@ -1,0 +1,144 @@
+Software testing is widely used technology because it is compulsory to test each and every software before deployment.
+
+Software testing is a process of identifying the correctness of software by considering its all attributes (Reliability, Scalability, Portability, Re-usability, Usability) and evaluating the execution of software components to find the software bugs or errors or defects
+
+Testing is mandatory because it will be a dangerous situation if the software fails any of time due to lack of testing. So, without testing software cannot be deployed to the end user.
+
+What is Testing
+Testing is a group of techniques to determine the correctness of the application under the predefined script but, testing cannot find all the defect of application. The main intent of testing is to detect failures of the application so that failures can be discovered and corrected. It does not demonstrate that a product functions properly under all conditions but only that it is not working in some specific conditions.
+
+Type of Software testing :
+Manual testing
+The process of checking the functionality of an application as per the customer needs without taking any help of automation tools is known as manual testing. While performing the manual testing on any application, we do not need any specific knowledge of any testing tool, rather than have a proper understanding of the product so we can easily prepare the test document.
+
+Manual testing can be further divided into three types of testing, which are as follows:
+
+White box testing
+Black box testing
+Gray box testing
+
+Automation testing
+Automation testing is a process of converting any manual test cases into the test scripts with the help of automation tools, or any programming language is known as automation testing. With the help of automation testing, we can enhance the speed of our test execution because here, we do not require any human efforts. We need to write a test script and execute those scripts.
+
+
+
+Manual Testing :
+Manual testing is a software testing process in which test cases are executed manually without using any automated tool. All test cases executed by the tester manually according to the end user's perspective. It ensures whether the application is working, as mentioned in the requirement document or not. Test cases are planned and implemented to complete almost 100 percent of the software application. Test case reports are also generated manually.
+
+Manual Testing is one of the most fundamental testing processes as it can find both visible and hidden defects of the software. The difference between expected output and output, given by the software, is defined as a defect. The developer fixed the defects and handed it to the tester for retesting.
+
+Manual testing is mandatory for every newly developed software before automated testing. This testing requires great efforts and time, but it gives the surety of bug-free software. Manual Testing requires knowledge of manual testing techniques but not of any automated testing tool.
+Manual testing is essential because one of the software testing fundamentals is "100% automation is not possible.
+
+Why we need manual testing
+Whenever an application comes into the market, and it is unstable or having a bug or issues or creating a problem while end-users are using it.
+
+If we don't want to face these kinds of problems, we need to perform one round of testing to make the application bug free and stable and deliver a quality product to the client, because if the application is bug free, the end-user will use the application more conveniently.
+
+If the test engineer does manual testing, he/she can test the application as an end-user perspective and get more familiar with the product, which helps them to write the correct test cases of the application and give the quick feedback of the application.
+
+Types of Manual Testing
+There are various methods used for manual testing. Each technique is used according to its testing criteria. Types of manual testing are given below:
+
+White Box Testing
+Black Box Testing
+Gray Box Testing
+White-box testing
+The white box testing is done by Developer, where they check every line of a code before giving it to the Test Engineer. Since the code is visible for the Developer during the testing, that's why it is also known as White box testing.
+Black box testing
+The black box testing is done by the Test Engineer, where they can check the functionality of an application or the software according to the customer /client's needs. In this, the code is not visible while performing the testing; that's why it is known as black-box testing.
+
+Gray Box testing
+Gray box testing is a combination of white box and Black box testing. It can be performed by a person who knew both coding and testing. And if the single person performs white box, as well as black-box testing for the application, is known as Gray box testing.
+
+How to perform Manual Testing
+First, tester observes all documents related to software, to select testing areas.
+Tester analyses requirement documents to cover all requirements stated by the customer.
+Tester develops the test cases according to the requirement document.
+All test cases are executed manually by using Black box testing and white box testing.
+If bugs occurred then the testing team informs the development team.
+The Development team fixes bugs and handed software to the testing team for a retest.
+
+
+Advantages of Manual Testing
+It does not require programming knowledge while using the Black box method.
+It is used to test dynamically changing GUI designs.
+Tester interacts with software as a real user so that they are able to discover usability and user interface issues.
+It ensures that the software is a hundred percent bug-free.
+It is cost-effective.
+Easy to learn for new testers.
+Disadvantages of Manual Testing
+It requires a large number of human resources.
+It is very time-consuming.
+Tester develops test cases based on their skills and experience. There is no evidence that they have covered all functions or not.
+Test cases cannot be used again. Need to develop separate test cases for each new software.
+It does not provide testing on all aspects of testing.
+Since two teams work together, sometimes it is difficult to understand each other's motives, it can mislead the process.
+Manual testing tools
+In manual testing, different types of testing like unit, integration, security, performance, and bug tracking, we have various tools such as Jira, Bugzilla, Mantis, Zap, NUnit, Tessy, LoadRunner, Citrus, SonarQube, etc. available in the market. Some of the tools are open-source, and some are commercial.
+
+
+Automation Testing
+When the testing case suites are performed by using automated testing tools is known as Automation Testing. The testing process is done by using special automation tools to control the execution of test cases and compare the actual result with the expected result. Automation testing requires a pretty huge investment of resources and money.
+
+Generally, repetitive actions are tested in automated testing such as regression tests. The testing tools used in automation testing are used not only for regression testing but also for automated GUI interaction, data set up generation, defect logging, and product installation.
+
+The goal of automation testing is to reduce manual test cases but not to eliminate any of them. Test suits can be recorded by using the automation tools, and tester can play these suits again as per the requirement. Automated testing suites do not require any human intervention
+
+he life cycle of Automation Testing
+The life cycle of automation testing is a systematic approach to organize and execute testing activities in a manner that provides maximum test coverage with limited resources. The structure of the test involves a multi-step process that supports the required, detailed and inter-related activities to perform the task.
+
+Decision to Automation Testing
+It is the first phase of Automation Test Life-cycle Methodology (ATLM). At this phase, the main focus of the testing team is to manage expectations from the test and find out the potential benefits if applying the automated testing correctly.
+
+On adopting an automated testing suit, organizations have to face many issues, some are listed below:
+
+Testing tool experts are required for automation testing, so the first issue, to appoint a testing equipment specialist.
+The second issue is, choose the exact tool for the testing of a particular function.
+The issue of design and development standards in the implementation of an automated testing process.
+Analysis of various automated testing tools to choose the best tool for automation testing.
+The issue of money and time occurs as the consumption of money and time is high in the beginning of the testing.
+Test Tool Selection
+Test Tool Selection represents the second phase of the Automation Test Life-cycle Methodology (ATLM). This phase guides the tester in the evaluation and selection of the testing tool.
+
+Since the testing tool supports almost all testing requirements, the tester still needs to review the system engineering environment and other organizational needs and then make a list of evaluation parameters of the tools. Test engineers evaluate the equipment based on the provided sample criteria.
+
+Scope Introduction
+This phase represents the third phase of Automation Test Life-cycle Methodology (ATLM). The scope of automation includes the testing area of the application. The determination of scope is based on the following points:
+
+Common functionalities of the software application that are held by every software application.
+Automation test sets the reusable range of business components.
+Automation Testing decides the extent of reusability of the business components.
+An application should have business-specific features and must be technically feasible.
+Automation testing provides the repetition of test cases in the case of cross-browser testing.
+This phase ensures the overall testing strategy that should be well managed and modified if required. In order to ensure the availability of skills, testing skills of a particular member and whole team are analyzed against the required specific skills for a particular software application.
+
+Test Planning and Development
+Test planning and development is the fourth and most important phase of Automation Test Life -cycle Methodology (ATLM) because all the testing strategies are defined here. Planning of long -lead test activities, the creation of standards and guidelines,an arrangement of the required combination of hardware, software and network to create a test environment, defect tracking procedure, guidelines to control test configuration and environment all are identified in this phase. Tester determines estimated effort and cost for the entire project. Test strategy and effort estimation documents are the deliverables provided by this phase. Test case execution can be started after the successful completion of test planning.
+
+Test Case Execution
+Test case Execution is the sixth phase of Automation Test Life -cycle Methodology (ATLM). It takes place after the successful completion of test planning. At this stage, the testing team defines test design and development. Now, test cases can be executed under product testing.In this phase, the testing team starts case development and execution activity by using automated tools. The prepared test cases are reviewed by peer members of the testing team or quality assurance leaders.
+
+During the execution of test procedures, the testing team directed to comply with the execution schedule. Execution phase implements the strategies such as integration, acceptance and unit testing that have defined in the test plan previously.
+
+Review and Assessment
+Review and assessment is the sixth and final stage of the automated testing life cycle but the activities of this phase are conducted throughout the whole life cycle to maintain continuous quality improvement. The improvement process is done via the evaluation of matrices, review and assessment of the activities.
+
+During the review, the examiner concentrates whether the particular metric satisfies the acceptance criteria or not, if yes, then it is ready to use in software production.It is comprehensive as test cases cover each feature of the application.
+
+The test team performs its own survey to inquire about the potential value of the process; if the potential benefit is less than sufficient, the testing team can change the testing tool. The team also provides a sample survey form to ask for feedback from the end user about the attributes and management of the software product.
+
+Advantages of Automation Testing
+Automation testing takes less time than manual testing.
+A tester can test the response of the software if the execution of the same operation is repeated several times.
+Automation Testing provides re-usability of test cases on testing of different versions of the same software.
+Automation testing is reliable as it eliminates hidden errors by executing test cases again in the same way.
+Automation Testing is comprehensive as test cases cover each and every feature of the application.
+It does not require many human resources, instead of writing test cases and testing them manually, they need an automation testing engineer to run them.
+The cost of automation testing is less than manual testing because it requires a few human resources.
+Disadvantages of Automation Testing
+Automation Testing requires high-level skilled testers.
+It requires high-quality testing tools.
+When it encounters an unsuccessful test case, the analysis of the whole event is complicated.
+Test maintenance is expensive because high fee license testing equipment is necessary.
+Debugging is mandatory if a less effective error has not been solved, it can lead to fatal results.
